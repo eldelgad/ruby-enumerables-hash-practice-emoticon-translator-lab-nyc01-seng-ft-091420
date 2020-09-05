@@ -26,7 +26,7 @@ def get_japanese_emoticon(emote_file, emojis)
     
   end
   
-  if emojis = emoji
+  if emojis[:japanese] = emojis[:japanese]
     binding.pry
     emojis
   else
