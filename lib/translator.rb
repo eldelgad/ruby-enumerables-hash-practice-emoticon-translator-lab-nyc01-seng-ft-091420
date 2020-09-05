@@ -26,7 +26,12 @@ def get_japanese_emoticon(emote_file, emojis)
     
   end
   
-  emojis ? library[emojis][:japanese] : "Sorry, that emoticon was not found"
+  if emojis == library[emojis][:japanese]
+    emojis
+  else
+    
+  
+  # emojis ? library[emojis][:japanese] : "Sorry, that emoticon was not found"
   
 end
 
